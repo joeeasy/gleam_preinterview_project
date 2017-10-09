@@ -1,0 +1,4 @@
+I’ve always been impressed by the high standard of business growth tools and content that Gleam has provided
+For the past seven months, I've worked as an intern for http://courses.switch.ng, http://hotels.ng and http://tolet.com.ng as a UI designer. My stories tends to focus on user centered design which helps http://glamourinvestments.com to increase their revenue, of which i know i can be of help to Gleam
+
+I applied for this job because I see SBS Food and this role as the natural next step in my career, and I believe my strong writing skills combined with my respect for the SBS values make me the ideal candidate.
