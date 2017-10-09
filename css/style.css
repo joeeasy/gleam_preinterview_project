@@ -1,0 +1,353 @@
+@import url('../css/fonts/fonts.min.css');
+@import url('../css/fonts/rene.bieder_campton.bold-webfont.woff');
+@import url('../css/fonts/rene.bieder_campton.extrabold-webfont.woff')
+*,** {
+    box-sizing: border-box;
+}
+body {
+    padding:0; margin:0; 
+}
+.p-0 {
+    padding: 0;
+}
+nav {
+    border-radius: 0px !important;
+    height: 83px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    z-index: 200;
+}
+.navbar-brand {
+    cursor: auto;
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 600;
+    font-family: "tungsten","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-brand span {
+    color: #fff;
+    display: inline;
+    text-transform: uppercase;
+    /* font-size: 3.2em; */
+    padding-left: .099em;
+    vertical-align: middle;
+    
+}
+.heading {
+    background-image: linear-gradient(rgba(0,0,0,0.86),rgba(35, 131, 196, 0.2)),  url('../img/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 0.79);
+    font-family: "verlag","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.9em;
+    cursor: auto;
+    
+}
+.navbar-inverse.sticky .navbar-nav > li > a {
+    color: #999 !important;
+    font-weight: bold;
+}
+.sticky .container .navbar-header .navbar-toggle .icon-bar {
+    background-color: #999 !important;        
+}
+.sticky .container .navbar-header .navbar-brand span {
+    color: #999 !important;    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-title > h1 {
+    color: #ffffff;
+    text-shadow: -2px 2px 0px rgba(0,0,0,0.3), -3px 3px 1px rgba(0,0,0,0.5), -4px 4px 2px rgba(0,0,0,0.2);
+    font-weight: 600;
+    font-size: 10em;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0.05em auto 0;
+    font-family: "tungsten","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-title > h3 {
+    margin: 0.5em auto 1em;
+    line-height: 1.5;
+    color: #fff;
+    font-family: "quadon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+header > div.header-title > hr {
+    display: block;
+    width: 15%;
+    margin: 1em auto;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+.header-title {
+    position: relative;
+}
+.btn-get-started {
+    background: transparent;
+    color: #ffffff;
+    border-radius: 10em;
+    padding: .8em 2.4em .6em;
+        /* border: 1px solid; */
+    /* width: 358px; */
+    text-transform: uppercase;
+    border: 1px solid;
+    outline: none;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "verlag","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.btn-get-started:hover {
+    background-color: #fff;
+    transition: ease-in-out 1s;
+}
+.grow {
+    background: linear-gradient(rgba(107, 84, 53, 0.86),rgba(167, 134, 62, 0.25));
+}
+
+/* scroll down */
+#section07 a span {
+    position: absolute;
+    /* top: 0; */
+    top: 110%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  #section07 {
+    margin-top: 40px;
+  }
+  #section07 a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  #section07 a span:nth-of-type(2) {
+    top: 105%;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+  }
+  #section07 a span:nth-of-type(3) {
+    top: 110%;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+  }
+  @-webkit-keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  /* features  */
+  .features {
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+ .features > .row > a .col-md-3 {
+      /* background-image: url('../img/competition.jpg'); */
+      background-size: cover;      /* height: 100%; */
+  }
+  .features > .row > div .col-md-3:hover {
+      opacity: 0.9;
+      transition: all 400ms ease-in;
+      -webkit-box-shadow: 1px 1px 18px 4px rgba(87,87,87,1);
+      -moz-box-shadow: 1px 1px 18px 4px rgba(87,87,87,1);
+      box-shadow: 1px 1px 18px 4px rgba(87,87,87,1);
+      /* background-size: contain; */
+      z-index: 100;
+  }
+  .features-content {
+    bottom: 0;
+    height: 40vh;
+    min-height: 300px;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    color: #fff;
+    z-index: 7;
+  }
+  .features-title {
+    font-family: "verlag","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-feature-settings: "liga" 1, "dlig" 1;
+    font-style: normal;
+    font-size: 3.33333rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    color: #fff;
+  }
+  .features-content p {
+      margin-top: 1em;
+      margin-bottom: 2em;
+      font-family: "quadon","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 1.3em;
+      color: #fff;
+  }
+  .features-content a {
+      text-decoration: none;
+      color: #fff;
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+/* partner section */
+.partner-section {
+    margin-top: 7em;
+}
+.partner-container {
+    position: relative;
+    margin: auto;
+    width: 80%
+}
+.partner-content-section {
+    margin-top: 3.2em
+}
+.partner-content-section h1 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: "tungsten","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.3;
+    color: #2e2f33;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 4em;
+    /* margin-bottom: 0 !important; */
+}
+.partner-content-section hr,.g-full .paragraph hr {
+    display: block;
+    width: 5%;
+    margin: 0.5em auto;
+    border: 1px solid #737580;
+}
+.partner-list .col-md-4 {
+    height: 200px;
+    background-color: #f2f3f5;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    /* padding: 0; */
+    width: calc(98%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* float: left; */
+}
+.partner-list .col-md-4  {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* scrol-bar */
+::-webkit-scrollbar {
+    background: #fff;
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    -webkit-border-radius: 0px;
+  }
+.testimonies {
+    background: #ffffff;
+    position: relative;
+    z-index: 8;
+    /* float: none; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:7em 0;
+    
+}
+.g-full {
+    margin: 0 auto;
+}
+.g-full header h1 {
+    font-family: "verlag","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 2em;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0 !important;
+}
+.icon-2x {
+    font-size: 2em;
+}
+.g-full .paragraph p {
+    margin: 0 0 .75em;
+    font-family: "quadon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:  #999;
+    font-size: 110%;
+}
+.icon-1x {
+    font-size: 1em;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    background: #fff !important;
+    padding: 0.13em 0 0.4em;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+    -webkit-transform: translateZ(0);
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+}
+.fade-down {
+    -webkit-animation: fade-down ease-in 0.7s 0.1s both;
+    -moz-animation: fade-down ease-in 0.7s 0.1s both;
+    animation: fade-down ease-in 0.7s 0.1s both;
+}
+.end {
+    /* position: relative; bottom: 0; left: 0; right: 0; */
+    
+}

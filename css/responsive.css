@@ -1,0 +1,12 @@
+@media (max-width: 425px) {
+    nav {
+        height: auto !important;
+    }
+    nav > .container {
+        margin:  0;
+        width: 100%;
+    }
+    div.navbar-header  > button{
+        border: none;
+    }
+}

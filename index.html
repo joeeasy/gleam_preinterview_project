@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Gleam</title>
+</head>
+<body>
+    <section class="heading">
+        <!-- navbar goes here  -->
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <!-- <img src="img/logo (1).png" alt="" class="logo"> -->
+                    </a>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apps</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Examples</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="#">Pricing</a></li>             
+                        <li><a href="#">Sign Up</a></li>             
+                        <li><a href="#">Login</a></li>             
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <header class="header">
+            <div class="header-title">
+                <h1 class="text-center">The Business Growth Platform</h1>
+                <hr class="hr">
+                <h3 class="text-center">Marketing apps designed to help you grow your business.</h3>
+                <div class="getstarted text-center">
+                    <a href="#" class="btn btn-get-started">Start Using Gleam</a>                        
+                </div>
+                <div id="section07">
+                    <!-- <h1>Scroll Down Button #7</h1> -->
+                    <a href="#section08"><span></span><span></span><span></span></a>
+                </div>
+            </div>
+            
+        </header>
+    </section>
+    <!-- features -->
+    <section class="features">
+        <div class="row">
+            
+        </div>
+    </section>
+    <!-- litle information -->
+    <section class="testimonies">
+        <div class="row g-full">
+            <header>
+                <h1><i class="material-icons icon-2x">trending_up</i> 1,252,188,262 Actions And Counting</h1>
+                <!-- <p>hellow</p> -->
+            </header>
+            <div class="paragraph">
+                <hr>
+                <p>Gleam is a privately owned Australian business based in Melbourne,<br> Australia.  We power growth for over 750k businesses  of all shapes <br> and sizes around the world and we're just getting started ☺                        
+                </p>
+                <a href="#" class="btn">View Case Studies <i class="material-icons icon-1x">trending_flat</i></a>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- partners -->
+    <section class="partner-section">
+        <div class="partner-container"> 
+            <div class="partner-content-section">
+                <h1>Powering Growth For <em>5,000+</em> Customers</h1>
+                <hr>
+                <div class="partner-list">
+                    <!-- <div class="row"> -->
+                    <div class="col-md-4 col-sm-6 col-xs-5"><img src="./img/partners/1lootcrate.png"/></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-5"><img src="./img/partners/2 hubspot.png"/></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6"><img src="./img/partners/3 beardbrand.png"/></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6"><img src="./img/partners/4sitepoint.png"/></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6"><img src="./img/partners/5fullscreen.png"/></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6"><img src="./img/partners/6 makeuseof.png"/></div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var a = $("nav.navbar"),
+            t = $(".mobile-nav-toggle");
+        if ($(window).scroll(function() {
+                var e = $(window).scrollTop();
+                e >= 10 ? (a.addClass("sticky").addClass("fade-down"), t.addClass("sticky")) : (a.removeClass("sticky").removeClass("fade-down"), t.removeClass("sticky"))
+            }), $(".spin").length > 0) {
+            var i = $(".spin"),
+                s = 100;
+            $(window).scroll(function() {
+                var e = $(this).scrollTop();
+                s = e / 4;
+                var o = "rotate(" + s + "deg)";
+                i.css({
+                    "-ms-transform": o,
+                    "-moz-transform": o,
+                    "-webkit-transform": o,
+                    transform: o
+                })
+            })
+        }
+        $('a[href^="#"]').on("click", function(e) {
+            e.preventDefault();
+            var o = "#js-scrolly",
+                a = $(o);
+            $("html, body").stop().animate({
+                scrollTop: a.offset().top - 70
+            }, 600, "swing")
+        });
+    </script>
+</body>
+</html>
