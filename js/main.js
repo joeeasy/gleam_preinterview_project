@@ -13,13 +13,13 @@
     var end = document.querySelector('.end');
     // end.style.width= window.innerWidth +'px';
     var allFeatures = [
-        {title: 'Run Campaign', content: 'Add your prize, choose your actions. Embed on your site, all in under 3 minutes.', link: '#', btnText: 'See Example', imgBackground: './img/competition.jpg'},
+        {title: 'Run Campaign', content: 'Add your prize, choose your actions. Embed on your site, all in under 3 minutes.', link: '#', btnText: 'See Example', imgBackground: 'https://static.pexels.com/photos/33973/pexels-photo.jpg'},
         
-        {title: 'Capture Emails', content: 'Rules based email capture forms that integrate directly with your email provider.', link: '#', imgBackground: './img/captureemails.jpg'},
+        {title: 'Capture Emails', content: 'Rules based email capture forms that integrate directly with your email provider.', link: '#', imgBackground: 'https://static.pexels.com/photos/5199/hands-coffee-cup-apple.jpg'},
         
-        {title: 'Visual Galleries', content: 'Build beautiful, responsive user driven content and photo galleries in minutes.', link: '#', imgBackground: './img/visualgalleries.jpeg'},
+        {title: 'Visual Galleries', content: 'Build beautiful, responsive user driven content and photo galleries in minutes.', link: '#', imgBackground: 'https://static.pexels.com/photos/277054/pexels-photo-277054.jpeg'},
         
-        {title: 'Redeem ', content: 'Drive more sales, ask users to complete predefined actions to unlock rewards.', link: '#', imgBackground: './img/reward.jpg'},
+        {title: 'Redeem ', content: 'Drive more sales, ask users to complete predefined actions to unlock rewards.', link: '#', imgBackground: 'https://aos.iacpublishinglabs.com/question/aq/1400px-788px/purpose-reward-management_d5bc3242d935066f.jpg?domain=cx.aos.ask.com'},
         
     ];
     
