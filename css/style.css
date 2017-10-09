@@ -1,7 +1,7 @@
 @import url('../css/fonts/fonts.min.css');
 @import url('../css/fonts/rene.bieder_campton.bold-webfont.woff');
 @import url('../css/fonts/rene.bieder_campton.extrabold-webfont.woff')
-*,** {
+*, ** {
     box-sizing: border-box;
 }
 body {
@@ -38,7 +38,7 @@ nav {
     
 }
 .heading {
-    background-image: linear-gradient(rgba(0,0,0,0.86),rgba(35, 131, 196, 0.2)),  url('../img/header.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.86),rgba(35, 131, 196, 0.2)),  url('https://static.pexels.com/photos/264594/pexels-photo-264594.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
